@@ -1,0 +1,23 @@
+(filename).tar is uncompressed tar archive
+
+1. Creating tar archive file
+
+    ==> tar cvf file.tar *.c
+
+    That command creates a tar file called file.tar,
+    which is the Archive of all .c files in current directory.
+    Output :
+    os2.c
+    os3.c
+    os4.c
+
+    
+2. Extracting tar archive file
+    
+    ==> tar xvf file.tar
+
+    That command extracts files from Archives. 
+    Output :
+    os2.c
+    os3.c
+    os4.c

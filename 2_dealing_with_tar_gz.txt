@@ -1,0 +1,14 @@
+(filename).tar.gz is gzip compression tar archive
+
+1. Creating tar.gz archive file
+
+    ==> tar cvzf file.tar.gz *.c
+
+    That command creates a tar file called file.tar.gz which is the Archive of .c files.  
+
+
+2. Extracting tar.gz archive file
+
+    ==> tar xvzf file.tar.gz
+
+    That command extracts files from tar archived file.tar.gz files.  

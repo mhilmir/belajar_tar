@@ -1,0 +1,18 @@
+(filename).tar.tbz is tbzip compression archive file
+This type can compress less than the size of gzip,
+but both compress and decompress takes more time then gzip.
+
+1. Creating tar.tbz archive file
+
+    ==> tar cvfj file.tar.tbz example.cpp
+
+    That command compresses and creates archive file less than the size of the gzip.
+    But takes more time.
+
+
+2. Extracting tar.tbz archive file
+
+    ==> tar xvfj file.tar.tbz
+
+    That command extracts files from tar.tbz archive file
+    

@@ -1,0 +1,5 @@
+we can untar(extracts) tar file to a specified directory using -C option.
+
+==> tar xvfj file.tar -C directoryName
+
+That command will Untar a file in a specified directory.

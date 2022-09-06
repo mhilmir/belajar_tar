@@ -1,0 +1,4 @@
+==> tar tvf file.tar
+==> tar tf file.tar             (without displaying verbose information)
+
+we can use those commands to view tar archive file without extracting it.

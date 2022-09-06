@@ -1,0 +1,6 @@
+Actually format .tar, .tar.gz, .tar.tbz are just a name,
+like, we can give name of gzip archive compression with tbzip format name,
+that's just okay
+
+That naming convention is just for convenience in recognizing each type of archive file
+the most important thing is the architecture of the file behind the system
