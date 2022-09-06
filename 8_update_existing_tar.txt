@@ -1,0 +1,7 @@
+we can update existing tar file with "tar rvf",
+so to add all .c files to file.tar, we use:
+
+==> tar rvf file.tar *.c
+
+nb: 
+should be noted that tar only can update uncompressed archive file (.tar only)
