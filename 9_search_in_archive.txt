@@ -1,0 +1,17 @@
+there are two ways to search file in tar archive file
+
+1. with grep
+    ==> tar tvf file.tar | grep "target_to_find"
+
+2. with passing the target_to_find
+    ==> tar tvf file.tar "target_to_find"
+
+
+
+///////////////////////////////////////////////////
+///              using wildcard                 /// 
+///////////////////////////////////////////////////
+
+==> tar tvf file.tar --wildcards "*.png"
+
+finding all file that have .png extension in the archive file
